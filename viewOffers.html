@@ -1,0 +1,68 @@
+<!-- Create a page with a label and a button. Button name is “View Offers”. If the counter is first time, display “Congratulation User” and if the counter is 3, display “Discount offer of 20% on all products” and if counter is 5, display message “Hurray!!! Mega offer of 50% on all products”. -->
+<html>
+<head>
+  <style type="text/css">
+  #spanid{
+    display: none;
+  }
+
+
+  </style>
+</head>
+<body>
+	<div id="divid">
+      <label>Sravanam Sale</label>
+      <button id="buttonid">View Offers</button>
+     
+    </div>
+    <script type="text/javascript">
+    	var btn=document.getElementById('buttonid');
+     
+      var count=1;
+      btn.onclick=function(){
+      
+        if(count == 1){
+
+          alert("Congratulation user");
+        }
+        if(count == 3){
+          alert("Discount offer of 20% on all products");
+        }
+        if(count == 5){
+         alert("Hurray!!! Mega offer of 50% on all products");
+        }
+        count++;
+      }
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
